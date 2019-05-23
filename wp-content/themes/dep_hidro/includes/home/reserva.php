@@ -20,7 +20,7 @@ $banner_reserva = get_field('banner_reserva');
     ?>
     <div class="banner-reserva" style="background-image:url(<?php echo $fondo; ?>);">
       <?php echo $texto ?>
-      <a href=" <?php echo $url_destino; ?> "><?php echo $texto; ?></a>
+      <a href=" <?php echo $url_destino; ?> "><?php echo $boton; ?></a>
     </div>
     <?php
   endwhile;

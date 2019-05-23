@@ -15,7 +15,7 @@ $slider_home = get_field('slider_home');
       $imagen = get_sub_field('imagen');
     ?>
     <div class="block-slider-item">
-      <img src="<?php echo $slider_home; ?>" alt="">
+      <img src="<?php echo $imagen; ?>" alt="" width="100%" height="auto">
     </div>
     <?php
   endwhile;
