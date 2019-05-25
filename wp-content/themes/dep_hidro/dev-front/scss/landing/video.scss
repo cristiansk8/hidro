@@ -1,0 +1,30 @@
+#video {
+	@include wrapper;
+	.vdo-lnd {
+		width: 100%;
+		height: auto;
+	}
+}
+
+// Videos feed posts
+body {
+	&.page-template-_landing-tpl {
+		.video-news {
+			header {
+				text-align: left;
+				h2 {
+					display: inline-block;
+					text-transform: unset;
+					text-transform: lowercase;
+					text-align: left;
+					line-height: 1;
+					@include font(40px);
+					color: $white;					
+					@include mq('md') {
+						@include font(130px);
+					}
+				}
+			}
+		}
+	}
+}
